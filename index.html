@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="number" id="num1" required>
+        <span id="num1_error" class="hidden">Enter 1st number</span>
+        <input type="number" id="num2" required>
+        <span id="num2_error" class="hidden">Enter 2nd number</span>
+        <button onclick="add()" type="button">Add</button>
+        <button onclick="subtract()" type="button">Subtract</button>
+        <button onclick="multiply()" type="button">Multiply</button>
+        <button onclick="divide()" type="button">Divide</button>
+        <p id="result"></p>
+    </form>
+    <script src="assets/add_subtract_multiply_divide.js"></script>
+</body>
+
+</html>
